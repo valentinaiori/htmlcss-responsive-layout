@@ -10,16 +10,79 @@ body{
     font-family: sans-serif;
 }
 
+img{
+    width: 100%;
+}
 
 
 /* Header */
+
+header{
+    position: fixed;
+    background-color: #0084fd;
+    width: 100%;
+    min-height: 80px;
+    line-height: 80px;
+}
+
+.container{
+    width: 100%;
+    padding: 0 20px;
+  }
+
+
+.flex{
+    display: flex;
+}
+
+.justify-space-between{
+    justify-content: space-between;
+
+}
+
+.align-center{
+    align-items: center;
+}
+
+.fa-bars{
+    color: white;
+}
 
 /* /Header */
 
 
 /* Main */
+
+main{
+    padding-top: 80px;
+}
+
+section{
+    min-height: 500px;
+}
 /* /Main */
 
 
 /* Footer */
+
+footer{
+    background-color: #333333;
+    min-height: 160px;
+}
 /* /Footer */
+
+
+
+
+/* Media Query */
+
+@media screen and (min-width: 768px){
+
+}
+
+
+
+
+@media screen and (min-width: 1200px){
+
+}
