@@ -48,6 +48,33 @@ header{
     color: white;
 }
 
+header .fa-bars,
+header img{
+  vertical-align: middle;
+}
+
+
+ul{
+    list-style-type: none;
+  }
+
+.menu ul{
+    display: none;
+}
+
+.menu li{
+    color: white;
+    padding-right: 10px;
+}
+
+#button-start{
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    color: black;
+}
+
+
 /* /Header */
 
 
@@ -84,5 +111,15 @@ footer{
 
 
 @media screen and (min-width: 1200px){
-
+    .menu .fa-bars{
+        display: none;
+      }
+    
+      .menu ul {
+        display: flex;
+      }
+    
+      .menu li {
+        display: inline-block;
+      }
 }
