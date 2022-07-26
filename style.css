@@ -14,6 +14,21 @@ img{
     width: 100%;
 }
 
+.container{
+    width: 100%;
+    padding: 0 20px;
+  }
+
+
+/** flex **/
+
+.flex{
+    display: flex;
+}
+
+
+/****** Content ******/
+
 
 /* Header */
 
@@ -25,19 +40,8 @@ header{
     line-height: 80px;
 }
 
-.container{
-    width: 100%;
-    padding: 0 20px;
-  }
-
-
-.flex{
-    display: flex;
-}
-
 .justify-space-between{
     justify-content: space-between;
-
 }
 
 .align-center{
@@ -64,15 +68,17 @@ ul{
 
 .menu li{
     color: white;
-    padding-right: 10px;
+    padding-right: 25px;
 }
 
 #button-start{
-    height: 15px;
-    width: 15px;
-    background-color: white;
-    color: black;
+    height: 28px;
+    width: 90px;
+    border-radius: 15px;
+    border: white;
+    margin-top: 25px;
 }
+
 
 
 /* /Header */
