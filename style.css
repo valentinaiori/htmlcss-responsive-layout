@@ -41,6 +41,7 @@ img{
 .column{
     width: 100%;
     flex-direction: column;
+    
   }
 
 .justify-space-between{
@@ -111,6 +112,7 @@ main{
 section{
     margin-top: 50px;
     margin-bottom: 50px;
+    padding: 20px 0;
 }
 
 
@@ -213,11 +215,19 @@ footer{
 /* Media Query */
 
 @media screen and (min-width: 768px){
-    #product-presentation .card{
+    #product-presentation .column {
         width: calc(100% / 3);
-    }
-
-
+        padding: 0 10px;
+      } 
+    
+    #product-presentation .column:first-child {
+        width: calc(100% / 3 * 2);
+      }
+    
+    #product-presentation img{
+        width: 50%;
+      }
+    
 }
 
 
@@ -235,6 +245,5 @@ footer{
       .menu li {
         display: inline-block;
       }
-
     
 }
